@@ -1,0 +1,11 @@
+{
+  "name": "findit-campus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FindIt Campus - lost & found for Mehran University of Engineering and Technology",
+  "scripts": {
+    "setup": "npm --prefix backend install && npm --prefix frontend install",
+    "test": "npm --prefix backend test",
+    "build": "npm --prefix frontend run build"
+  }
+}
